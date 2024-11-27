@@ -20,3 +20,25 @@ jspm_packages/
 
 # Build output
 build
+.vscode
+
+
+# git clone https://github.com/clintonMF/consapp.git
+# git config --global user.name "clintonMF"
+# git config --global user.email "mekwunyeclinton22@gmail.com"
+# az webapp deployment source config-local-git --name consoApp --resource-group testing_group
+# az webapp deployment list-publishing-credentials --name consoApp --resource-group testing_group
+# {
+#   "id": "/subscriptions/e96ca6e5-43c7-4d51-9848-a01b9b95c0f0/resourceGroups/testing_group/providers/Microsoft.Web/sites/consoApp/publishingcredentials/REDACTED",
+#   "kind": null,
+#   "location": "West US",
+#   "name": "consoApp",
+#   "publishingPassword": "REDACTED",
+#   "publishingPasswordHash": null,
+#   "publishingPasswordHashSalt": null,
+#   "publishingUserName": "REDACTED",
+#   "resourceGroup": "testing_group",
+#   "scmUri": "https://REDACTED:REDACTED@consoapp-gjhwc6cdf6gtc7gz.scm.westus-01.azurewebsites.net",
+#   "type": "Microsoft.Web/sites/publishingcredentials"
+# }
+# git remote add azure 'https://REDACTED:REDACTED@consoapp-gjhwc6cdf6gtc7gz.scm.westus-01.azurewebsites.net'
